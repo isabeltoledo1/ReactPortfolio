@@ -31,7 +31,9 @@ nav a:hover {
  
 }
 
-
+nav {
+  z-index: 2;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -72,15 +74,23 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   height: 90vh;
-  opacity: 0.8;
+
+
 }
 
 .main-info{
+
   display:flex;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
   flex-direction:column;
   justify-content: center;
   align-items: center;
   text-align: center;
+ 
 }
 
 .main-info h1{
@@ -93,3 +103,10 @@ nav a:hover {
   color: black;
 }
 
+
+  .tsparticles-canvas-el{
+  position:absolute;
+  height:100vh;
+  width:100vw;
+  z-index: 1;
+}
