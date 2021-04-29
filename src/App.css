@@ -64,3 +64,32 @@ nav a:hover {
     transform: rotate(360deg);
   }
 }
+
+
+.header-wrapper{
+  position: relative;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  opacity: 0.8;
+}
+
+.main-info{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1{
+  color: var(--primary-white);
+  text-transform:uppercase;
+}
+
+.typed-text{
+  font-size:2rem;
+  color: black;
+}
+
