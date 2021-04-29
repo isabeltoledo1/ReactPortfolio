@@ -99,8 +99,8 @@ nav {
 }
 
 .typed-text{
-  font-size:2rem;
-  color: black;
+  font-size:2.0rem;
+  color:black;
 }
 
 
@@ -109,4 +109,12 @@ nav {
   height:100vh;
   width:100vw;
   z-index: 1;
+}
+
+
+.profile-img{
+  width : 20rem;
+  border-radius: 50%;
+  padding: 1rem;
+  border: 1px solid;
 }
