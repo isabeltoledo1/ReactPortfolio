@@ -73,7 +73,7 @@ nav {
   background: url(img8.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 98vh;
+  height: 100vh;
 
 
 }
@@ -112,7 +112,12 @@ nav {
   z-index: 1;
 }
 
-
+.about{
+  color:white;
+  background: url(idk1.jpg) no-repeat;
+  padding: 6rem;
+  text-transform:uppercase;
+}
 .profile-img{
   width : 20rem;
   border-radius: 50%;
@@ -121,7 +126,9 @@ nav {
 }
 
 .portfolio-wrapper{
-  background:  rgb(243, 239, 239); 
+  color:white;
+  text-transform:uppercase;
+  background: url(snow3.jpg) repeat;
   padding: 3rem 0;
 }
 
@@ -153,7 +160,10 @@ nav {
 
 
 .contacts{
-  padding: 3rem 0; 
+  color: rgb(44, 1, 1);
+  font-size: 30px;
+  background: url(snowy.jpg) no-repeat;
+  padding: 6rem 0; 
 } 
 
 .contacts h1 {
@@ -161,3 +171,4 @@ nav {
   padding: 1.3rem 0;
   text-transform:uppercase;
 }
+

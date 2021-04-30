@@ -29,7 +29,7 @@ function App() {
           type: "circle",
           stroke: {
             width: 2,
-            color: "#000000"
+            color: "white"
           },
           polygon: {
             nb_sides: 4
@@ -51,7 +51,7 @@ function App() {
           }
         },
         size: {
-          value: 1.5,
+          value: 3,
           random: true,
           anim: {
             enable: false,
@@ -106,7 +106,7 @@ function App() {
             distance: 400,
             size: 40,
             duration: 2,
-            opacity: 8,
+            opacity: 10,
             speed: 3
           },
           repulse: {

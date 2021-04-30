@@ -3,10 +3,10 @@ import author from "../me.jpg";
 
 const About = () => {
   return (
-    <div id = "about" className="container py-5">
+    <div className="about">
       <div className="row">
         <div className="photo-wrap">
-          <div className="col-lg-6 col-xs-12">
+          <div className="col-lg-4 col-xs-12">
             <img className="profile-img" src={author} alt="author" />
           </div>
         </div>
