@@ -70,7 +70,7 @@ nav {
 
 .header-wrapper{
   position: relative;
-  background: url(sky2.JPG) no-repeat;
+  background: url(img8.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 98vh;
@@ -79,7 +79,6 @@ nav {
 }
 
 .main-info{
-
   display:flex;
   position:absolute;
   top:0;
@@ -94,13 +93,15 @@ nav {
 }
 
 .main-info h1{
-  color: var(--primary-white);
+  letter-spacing:0.5rem;
+  color: rgb(184, 184, 190);
+  font-size:3rem;
   text-transform:uppercase;
 }
 
 .typed-text{
-  font-size:2.0rem;
-  color:black;
+  font-size:1.8rem;
+  color: white;
 }
 
 
