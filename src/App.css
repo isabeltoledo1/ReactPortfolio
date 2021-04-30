@@ -70,10 +70,10 @@ nav {
 
 .header-wrapper{
   position: relative;
-  background: url(background.jpg) no-repeat;
+  background: url(sky.PNG) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 
 
 }
