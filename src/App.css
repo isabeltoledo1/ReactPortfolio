@@ -151,4 +151,12 @@ nav {
 }
 
 
+.contacts{
+  padding: 3rem 0; 
+} 
 
+.contacts h1 {
+  color :black;
+  padding: 1.3rem 0;
+  text-transform:uppercase;
+}
